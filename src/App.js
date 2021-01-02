@@ -8,10 +8,6 @@ import React, { useState, useRef, useEffect } from "react";
 import SkriptHubLogo from "./img/SkriptHubLogoWhite.svg"
 import axios from "axios"
 import { AppToaster } from "./components/Toaster";
-import ReactGA from "react-ga";
-
-ReactGA.initialize("G-JM8FWFTDGE");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [theme] = useState("dark");
