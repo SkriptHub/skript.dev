@@ -1,0 +1,19 @@
+{
+  "short_name": "Skript.Dev",
+  "name": "Skript.Dev - Skript Parser by Skript Hub",
+  "icons": [
+    {
+      "src": "skIcon.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "skIcon.png",
+      "sizes": "1000x1000 512x512 192x192 144x144 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

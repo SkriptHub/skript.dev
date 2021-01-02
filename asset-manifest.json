@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54d8be0c.chunk.css",
+    "main.js": "/static/js/main.bbdd208a.chunk.js",
+    "main.js.map": "/static/js/main.bbdd208a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.835b397b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.835b397b.js.map",
+    "static/css/2.c1758e63.chunk.css": "/static/css/2.c1758e63.chunk.css",
+    "static/js/2.c902846c.chunk.js": "/static/js/2.c902846c.chunk.js",
+    "static/js/2.c902846c.chunk.js.map": "/static/js/2.c902846c.chunk.js.map",
+    "static/js/3.bc9a15ff.chunk.js": "/static/js/3.bc9a15ff.chunk.js",
+    "static/js/3.bc9a15ff.chunk.js.map": "/static/js/3.bc9a15ff.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1758e63.chunk.css.map": "/static/css/2.c1758e63.chunk.css.map",
+    "static/css/main.54d8be0c.chunk.css.map": "/static/css/main.54d8be0c.chunk.css.map",
+    "static/js/2.c902846c.chunk.js.LICENSE.txt": "/static/js/2.c902846c.chunk.js.LICENSE.txt",
+    "static/media/SkriptHubLogoWhite.467b0133.svg": "/static/media/SkriptHubLogoWhite.467b0133.svg",
+    "static/media/App.css": "/static/media/icons-20.cde033c5.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.835b397b.js",
+    "static/css/2.c1758e63.chunk.css",
+    "static/js/2.c902846c.chunk.js",
+    "static/css/main.54d8be0c.chunk.css",
+    "static/js/main.bbdd208a.chunk.js"
+  ]
+}
