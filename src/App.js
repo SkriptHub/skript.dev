@@ -16,7 +16,6 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   const [theme] = useState("dark");
   const [language] = useState("skript");
-  const [isEditorReady, setIsEditorReady] = useState(false);
   const [parseUrl, setParseUrl] = useState("http://localhost:8020/parse");
   const [value, setValue] = useState("# Put you script below");
   const [scriptErrors, setScriptErrors] = useState([]);
@@ -67,7 +66,6 @@ function App() {
 }
 
   function handleEditorDidMount(_, editor) {
-    setIsEditorReady(true);
     editorInstance.current = editor;
 
     monaco
@@ -246,7 +244,7 @@ function App() {
   useEffect(() => {
     console.log(scriptErrors)
 
-    if (editorInstance.current == undefined){
+    if (editorInstance.current === undefined){
       return
     }
 
@@ -278,7 +276,7 @@ function App() {
   useEffect(() => {
     console.log(syntaxList)
 
-    if (editorInstance.current == undefined){
+    if (editorInstance.current === undefined){
       return
     }
 
