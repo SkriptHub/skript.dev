@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga";
 
-ReactGA.initialize("G-JM8FWFTDGE");
+ReactGA.initialize("UA-40878793-5");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
